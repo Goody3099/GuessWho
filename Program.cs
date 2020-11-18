@@ -106,7 +106,7 @@ namespace GuessWho
         static int randomQuestion(List<string> x)
         {
             Random r = new Random();
-            int computerQuestion = r.Next(0, x.Count() - 2);
+            int computerQuestion = r.Next(1, x.Count() - 1);
             return computerQuestion;
         }
         static void displayPlayerBoard(List<Characters> x)
@@ -147,7 +147,7 @@ namespace GuessWho
                 "Does your character have glasses?",
                 "Does your character have a hat?",
                 "Does your character have Facial hair?",
-                "Does your character have earrings ?",
+                "Does your character have earrings?",
                 "Does your character have blue eyes?",
                 "Does your character have brown eyes?",
                 "Does your character have green eyes?",
@@ -203,7 +203,7 @@ namespace GuessWho
 
                 }
             }
-            else if (q == "Does your character have Facial hair?")
+            else if (q == "Does your character have facial hair?")
             {
                 if (cc.facialHair == true)
                 {
