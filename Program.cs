@@ -87,7 +87,7 @@ namespace GuessWho
                     break;
                 }
                 string computerResponse = randomQuestion(computerQuestions).ToString();
-                Console.WriteLine($"Computers question {computerResponse}");
+
                 computerBoard = evalResponse(computerResponse, pc, computerBoard, computerQuestions);
                 computerQuestions = newQuestions(Int32.Parse(response), computerQuestions);
                 Console.WriteLine($"How many characters the Player's board has left: {playerBoard.Count()}");
@@ -107,6 +107,7 @@ namespace GuessWho
         {
             Random r = new Random();
             int computerQuestion = r.Next(1, x.Count() - 1);
+            Console.WriteLine($"Computers question {x[computerQuestion - 1]}");
             return computerQuestion;
         }
         static void displayPlayerBoard(List<Characters> x)
@@ -146,7 +147,7 @@ namespace GuessWho
                 "Is your character male?",
                 "Does your character have glasses?",
                 "Does your character have a hat?",
-                "Does your character have Facial hair?",
+                "Does your character have facial hair?",
                 "Does your character have earrings?",
                 "Does your character have blue eyes?",
                 "Does your character have brown eyes?",
