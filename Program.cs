@@ -10,270 +10,30 @@ namespace GuessWho
         static void Main(string[] args)
         {
             Console.WriteLine("Guess Who.");
-            Characters Liam = new Characters()
-            {
-                name = "Liam",
-                hat = true,
-                glasses = true,
-                male = true,
-                hairColor = "Red",
-                facialHair = false,
-                eyeColor = "Green",
-                earrings = false,
-            };
-            Characters Noah = new Characters()
-            {
-                name = "Noah",
-                hat = true,
-                glasses = false,
-                male = true,
-                hairColor = "Blonde",
-                facialHair = true,
-                eyeColor = "Blue",
-                earrings = false,
-            };
-            Characters Oliver = new Characters()
-            {
-                name = "Oliver",
-                hat = true,
-                glasses = true,
-                male = true,
-                hairColor = "Black",
-                facialHair = false,
-                eyeColor = "Brown",
-                earrings = false,
-            };
-            Characters William = new Characters()
-            {
-                name = "William",
-                hat = true,
-                glasses = false,
-                male = true,
-                hairColor = "Brown",
-                facialHair = true,
-                eyeColor = "Green",
-                earrings = false,
-            };
-            Characters Elijah = new Characters()
-            {
-                name = "Elijah",
-                hat = true,
-                glasses = true,
-                male = true,
-                hairColor = "Red",
-                facialHair = true,
-                eyeColor = "Blue",
-                earrings = false,
-            };
-            Characters James = new Characters()
-            {
-                name = "James",
-                hat = true,
-                glasses = false,
-                male = true,
-                hairColor = "Blonde",
-                facialHair = false,
-                eyeColor = "Brown",
-                earrings = false,
-            };
-            Characters Ben = new Characters()
-            {
-                name = "Ben",
-                hat = false,
-                glasses = true,
-                male = true,
-                hairColor = "Black",
-                facialHair = false,
-                eyeColor = "Green",
-                earrings = false,
-            };
-            Characters Lucas = new Characters()
-            {
-                name = "Lucas",
-                hat = false,
-                glasses = false,
-                male = true,
-                hairColor = "Brown",
-                facialHair = true,
-                eyeColor = "Blue",
-                earrings = false,
-            };
-            Characters Mason = new Characters()
-            {
-                name = "Mason",
-                hat = false,
-                glasses = true,
-                male = true,
-                hairColor = "Red",
-                facialHair = true,
-                eyeColor = "Brown",
-                earrings = false,
-            };
-            Characters Ethan = new Characters()
-            {
-                name = "Ethan",
-                hat = false,
-                glasses = false,
-                male = true,
-                hairColor = "Black",
-                facialHair = false,
-                eyeColor = "Green",
-                earrings = false,
-            };
-            Characters Alexander = new Characters()
-            {
-                name = "Alexander",
-                hat = false,
-                glasses = true,
-                male = true,
-                hairColor = "Blonde",
-                facialHair = true,
-                eyeColor = "Blue",
-                earrings = false,
-            };
-            Characters Henry = new Characters()
-            {
-                name = "Henry",
-                hat = false,
-                glasses = false,
-                male = true,
-                hairColor = "Brown",
-                facialHair = true,
-                eyeColor = "Brown",
-                earrings = false,
-            };
-            Characters Olivia = new Characters()
-            {
-                name = "Olivia",
-                hat = true,
-                glasses = false,
-                male = false,
-                hairColor = "Blonde",
-                facialHair = false,
-                eyeColor = "Green",
-                earrings = true,
-            };
-            Characters Emma = new Characters()
-            {
-                name = "Emma",
-                hat = true,
-                glasses = true,
-                male = false,
-                hairColor = "Red",
-                facialHair = false,
-                eyeColor = "Blue",
-                earrings = false,
-            };
-            Characters Ava = new Characters()
-            {
-                name = "Ava",
-                hat = true,
-                glasses = true,
-                male = false,
-                hairColor = "Brown",
-                facialHair = false,
-                eyeColor = "Brown",
-                earrings = true,
-            };
-            Characters Sophia = new Characters()
-            {
-                name = "Sophia",
-                hat = true,
-                glasses = false,
-                male = false,
-                hairColor = "Black",
-                facialHair = false,
-                eyeColor = "Green",
-                earrings = true,
-            };
-            Characters Isabella = new Characters()
-            {
-                name = "Isabella",
-                hat = true,
-                glasses = true,
-                male = false,
-                hairColor = "Black",
-                facialHair = false,
-                eyeColor = "Blue",
-                earrings = false,
-            };
-            Characters Charlotte = new Characters()
-            {
-                name = "Charlotte",
-                hat = true,
-                glasses = false,
-                male = false,
-                hairColor = "Red",
-                facialHair = false,
-                eyeColor = "Brown",
-                earrings = false,
-            };
-            Characters Amelia = new Characters()
-            {
-                name = "Amelia",
-                hat = false,
-                glasses = true,
-                male = false,
-                hairColor = "Blonde",
-                facialHair = false,
-                eyeColor = "Green",
-                earrings = true,
-            };
-            Characters Mia = new Characters()
-            {
-                name = "Mia",
-                hat = false,
-                glasses = true,
-                male = false,
-                hairColor = "Brown",
-                facialHair = false,
-                eyeColor = "Blue",
-                earrings = false,
-            };
-            Characters Harper = new Characters()
-            {
-                name = "Harper",
-                hat = false,
-                glasses = true,
-                male = false,
-                hairColor = "Brown",
-                facialHair = false,
-                eyeColor = "brown",
-                earrings = true,
-            };
-            Characters Evelyn = new Characters()
-            {
-                name = "Evelyn",
-                hat = false,
-                glasses = false,
-                male = false,
-                hairColor = "Black",
-                facialHair = false,
-                eyeColor = "Green",
-                earrings = false,
-            };
-            Characters Abigail = new Characters()
-            {
-                name = "Abigail",
-                hat = false,
-                glasses = true,
-                male = false,
-                hairColor = "Red",
-                facialHair = false,
-                eyeColor = "Blue",
-                earrings = false,
-            };
-            Characters Emily = new Characters()
-            {
-                name = "Emily",
-                hat = false,
-                glasses = false,
-                male = false,
-                hairColor = "Blonde",
-                facialHair = false,
-                eyeColor = "Brown",
-                earrings = true,
-            };
+            Characters Liam = new Characters("Liam", true, true, true, "Red", false, "Green", false);
+            Characters Noah = new Characters("Noah", true, false, true, "Blonde", true, "Blue", false);
+            Characters Oliver = new Characters("Oliver", true, true, true, "Black", false, "Brown", false);
+            Characters William = new Characters("William", true, false, true, "Brown", true, "Green", false);
+            Characters Elijah = new Characters("Elijah", true, true, true, "Red", true, "Blue", false);
+            Characters James = new Characters("James", true, false, true, "Blonde", false, "Brown", false);
+            Characters Ben = new Characters("Ben", false, true, true, "Black", false, "Green", false);
+            Characters Lucas = new Characters("Lucas", false, false, true, "Brown", true, "Blue", false);
+            Characters Mason = new Characters("Mason", false, true, true, "Red", true, "Brown", false);
+            Characters Ethan = new Characters("Ethan", false, false, true, "Black", false, "Green", false);
+            Characters Alexander = new Characters("Alexander", false, true, true, "Blonde", true, "Blue", false);
+            Characters Henry = new Characters("Henry", false, false, true, "Brown", true, "Brown", false);
+            Characters Olivia = new Characters("Olivia", true, false, false, "Blonde", false, "Green", true);
+            Characters Emma = new Characters("Emma", true, true, false, "Red", false, "Blue", false);
+            Characters Ava = new Characters("Ava", true, true, false, "Brown", false, "Brown", true);
+            Characters Sophia = new Characters("Sophia", true, false, false, "Black", false, "Green", true);
+            Characters Isabella = new Characters("Isabella", true, true, false, "Black", false, "Blue", false);
+            Characters Charlotte = new Characters("Charlotte", true, false, false, "Red", false, "Brown", false);
+            Characters Amelia = new Characters("Amelia", false, true, false, "Blonde", false, "Green", true);
+            Characters Mia = new Characters("Mia", false, true, false, "Brown", false, "Blue", false);
+            Characters Harper = new Characters("Harper", false, true, false, "Brown", false, "Brown", true);
+            Characters Evelyn = new Characters("Evelyn", false, false, false, "Black", false, "Green", false);
+            Characters Abigail = new Characters("Abigail", false, true, false, "Red", false, "Blue", false);
+            Characters Emily = new Characters("Emily", false, false, false, "Blonde", false, "Brown", true);
 
             List<Characters> listOfCharacters = new List<Characters>();
             listOfCharacters.Add(Liam);
@@ -300,17 +60,22 @@ namespace GuessWho
             listOfCharacters.Add(Evelyn);
             listOfCharacters.Add(Abigail);
             listOfCharacters.Add(Emily);
+
             List<Characters> playerBoard = listOfCharacters;
             List<Characters> computerBoard = listOfCharacters;
             Characters pc = listOfCharacters[randomNumber()];
             Characters cc = listOfCharacters[randomNumber()];
+            List<string> playerQuestions = createQuestions();
+            List<string> computerQuestions = createQuestions();
 
             while (true)
             {
                 displayPlayerBoard(playerBoard);
-                questions();
+                questions(playerQuestions);
                 string response = Console.ReadLine();
-                playerBoard = evalResponse(response, cc, playerBoard);
+                playerBoard = evalResponse(response, cc, playerBoard, playerQuestions);
+                playerQuestions = newQuestions(Int32.Parse(response), playerQuestions);
+
                 if (playerBoard.Count() == 1)
                 {
                     Console.WriteLine($"Player guessed {cc.name} or only has one character left on the board! Player Wins!!!");
@@ -321,18 +86,27 @@ namespace GuessWho
                     Console.WriteLine($"Computer guessed {pc.name} or only has one character left on the board! Computer Wins!!!");
                     break;
                 }
-                //playerCharacter(pc);
-                string computerResponse = randomQuestion().ToString();
+                string computerResponse = randomQuestion(computerQuestions).ToString();
                 Console.WriteLine($"Computers question {computerResponse}");
-                computerBoard = evalResponse(computerResponse, pc, computerBoard);
+                computerBoard = evalResponse(computerResponse, pc, computerBoard, computerQuestions);
+                computerQuestions = newQuestions(Int32.Parse(response), computerQuestions);
                 Console.WriteLine($"How many characters the Player's board has left: {playerBoard.Count()}");
                 Console.WriteLine($"How many characters the Computer's board has left: {computerBoard.Count()}");
             }
         }
-        static int randomQuestion()
+        static List<string> newQuestions(int index, List<string> questions)
+        {
+            if (index != questions.Count())
+            {
+                questions.RemoveAt(index - 1);
+                return questions;
+            }
+            return questions;
+        }
+        static int randomQuestion(List<string> x)
         {
             Random r = new Random();
-            int computerQuestion = r.Next(0, 12);
+            int computerQuestion = r.Next(0, x.Count() - 2);
             return computerQuestion;
         }
         static void displayPlayerBoard(List<Characters> x)
@@ -350,44 +124,45 @@ namespace GuessWho
                 ");
             }
         }
-        static void playerCharacter(Characters pc)
-        {
-            Console.WriteLine($@"Player's Character: {pc.name}
-                male: {pc.male}
-                Hat: {pc.hat}
-                Glasses: {pc.glasses}
-                Earrings: {pc.earrings}
-                Facial Hair: {pc.facialHair}
-                Hair Color: {pc.hairColor}
-                Eye Color: {pc.eyeColor}
-                ");
-        }
         static int randomNumber()
         {
             Random r = new Random();
             int random = r.Next(0, 24);
             return random;
         }
-        static void questions()
+        static void questions(List<string> questions)
         {
-            Console.WriteLine(@"Ask a question.
-            1). Is your character male?
-            2). Does your character have glasses?
-            3). Does your character have a hat?
-            4). Does your character have Facial hair?
-            5). Does your character have earrings?
-            6). Does your character have blue eyes?
-            7). Does your character have brown eyes?
-            8). Does your character have green eyes?
-            9). Does your character have red hair?
-            10). Does your character have blonde hair?
-            11). Does your character have black hair?
-            12). Does your character have brown hair?
-            13). Guess Character!");
+            int x = 0;
+            while (x < questions.Count())
+            {
+                Console.WriteLine($"{x + 1}) {questions[x]}");
+                x++;
+            }
         }
-        static List<Characters> evalResponse(string evalResponse, Characters cc, List<Characters> playerBoard)
+        static List<string> createQuestions()
         {
-            if (evalResponse == "1")
+            List<string> list = new List<string>()
+            {
+                "Is your character male?",
+                "Does your character have glasses?",
+                "Does your character have a hat?",
+                "Does your character have Facial hair?",
+                "Does your character have earrings ?",
+                "Does your character have blue eyes?",
+                "Does your character have brown eyes?",
+                "Does your character have green eyes?",
+                "Does your character have red hair?",
+                "Does your character have blonde hair?",
+                "Does your character have black hair?",
+                "Does your character have brown hair?",
+                "Guess Character!"
+            };
+            return list;
+        }
+        static List<Characters> evalResponse(string evalResponse, Characters cc, List<Characters> playerBoard, List<string> questions)
+        {
+            var q = questions[Int32.Parse(evalResponse) - 1];
+            if (q == "Is your character male?")
             {
                 if (cc.male == true)
                 {
@@ -400,7 +175,7 @@ namespace GuessWho
                     return playerBoard.Where(e => e.male != true).ToList();
                 }
             }
-            else if (evalResponse == "2")
+            else if (q == "Does your character have glasses?")
             {
                 if (cc.glasses == true)
                 {
@@ -414,7 +189,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "3")
+            else if (q == "Does your character have a hat?")
             {
                 if (cc.hat == true)
                 {
@@ -428,7 +203,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "4")
+            else if (q == "Does your character have Facial hair?")
             {
                 if (cc.facialHair == true)
                 {
@@ -442,7 +217,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "5")
+            else if (q == "Does your character have earrings?")
             {
                 if (cc.earrings == true)
                 {
@@ -456,7 +231,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "6")
+            else if (q == "Does your character have blue eyes?")
             {
                 if (cc.eyeColor == "Blue")
                 {
@@ -470,7 +245,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "7")
+            else if (q == "Does your character have brown eyes?")
             {
                 if (cc.eyeColor == "Brown")
                 {
@@ -484,7 +259,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "8")
+            else if (q == "Does your character have green eyes?")
             {
                 if (cc.eyeColor == "Green")
                 {
@@ -498,7 +273,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "9")
+            else if (q == "Does your character have red hair?")
             {
                 if (cc.hairColor == "Red")
                 {
@@ -512,7 +287,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "10")
+            else if (q == "Does your character have blonde hair?")
             {
                 if (cc.hairColor == "Blonde")
                 {
@@ -526,7 +301,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "11")
+            else if (q == "Does your character have black hair?")
             {
                 if (cc.hairColor == "Black")
                 {
@@ -540,7 +315,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "12")
+            else if (q == "Does your character have brown hair?")
             {
                 if (cc.hairColor == "Brown")
                 {
@@ -554,7 +329,7 @@ namespace GuessWho
 
                 }
             }
-            else if (evalResponse == "13")
+            else if (q == "Guess Character!")
             {
                 Console.WriteLine("Who do you guess?");
                 string x = Console.ReadLine();
@@ -572,7 +347,7 @@ namespace GuessWho
             }
             else
             {
-                questions();
+                //questions(questions);
                 return playerBoard;
             }
         }
