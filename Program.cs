@@ -313,11 +313,27 @@ namespace GuessWho
                 playerBoard = evalResponse(response, cc, playerBoard);
                 if (playerBoard.Count() == 1)
                 {
-                    Console.WriteLine("You Won!!!");
+                    Console.WriteLine($"Player guessed {cc.name} or only has one character left on the board! Player Wins!!!");
                     break;
                 }
-                playerCharacter(pc);
+                else if (computerBoard.Count() == 1)
+                {
+                    Console.WriteLine($"Computer guessed {pc.name} or only has one character left on the board! Computer Wins!!!");
+                    break;
+                }
+                //playerCharacter(pc);
+                string computerResponse = randomQuestion().ToString();
+                Console.WriteLine($"Computers question {computerResponse}");
+                computerBoard = evalResponse(computerResponse, pc, computerBoard);
+                Console.WriteLine($"How many characters the Player's board has left: {playerBoard.Count()}");
+                Console.WriteLine($"How many characters the Computer's board has left: {computerBoard.Count()}");
             }
+        }
+        static int randomQuestion()
+        {
+            Random r = new Random();
+            int computerQuestion = r.Next(0, 12);
+            return computerQuestion;
         }
         static void displayPlayerBoard(List<Characters> x)
         {
