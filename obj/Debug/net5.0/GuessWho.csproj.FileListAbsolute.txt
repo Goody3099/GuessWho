@@ -1,0 +1,16 @@
+C:\Users\mattg\workspace\GuessWho\bin\Debug\net5.0\GuessWho.exe
+C:\Users\mattg\workspace\GuessWho\bin\Debug\net5.0\GuessWho.deps.json
+C:\Users\mattg\workspace\GuessWho\bin\Debug\net5.0\GuessWho.runtimeconfig.json
+C:\Users\mattg\workspace\GuessWho\bin\Debug\net5.0\GuessWho.runtimeconfig.dev.json
+C:\Users\mattg\workspace\GuessWho\bin\Debug\net5.0\GuessWho.dll
+C:\Users\mattg\workspace\GuessWho\bin\Debug\net5.0\ref\GuessWho.dll
+C:\Users\mattg\workspace\GuessWho\bin\Debug\net5.0\GuessWho.pdb
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\GuessWho.csprojAssemblyReference.cache
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\GuessWho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\GuessWho.AssemblyInfoInputs.cache
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\GuessWho.AssemblyInfo.cs
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\GuessWho.csproj.CoreCompileInputs.cache
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\GuessWho.dll
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\ref\GuessWho.dll
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\GuessWho.pdb
+C:\Users\mattg\workspace\GuessWho\obj\Debug\net5.0\GuessWho.genruntimeconfig.cache
